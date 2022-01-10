@@ -1,6 +1,7 @@
 # Reference
 
 - https://medium.com/mkdir-awesome/how-to-use-npm-link-to-create-a-sveltekit-component-library-97e9a66817fc
+- 
 
 ## Creating a project
 
@@ -9,6 +10,7 @@ mkdir my-app
 cd my-app
 npm init svelte@next
 npx svelte-add@latest tailwindcss
+npm install -D svelte2tsx
 ```
 
 ## Developing
