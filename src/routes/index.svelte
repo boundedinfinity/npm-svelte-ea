@@ -3,4 +3,10 @@
   import Ea from '$lib/ea.svelte'
 </script>
 
-<Ea url="http://www.github.com" />
+<p>
+    <Ea url="http://www.github.com" />
+</p>
+
+<p>
+    <Ea url="http://www.github.com" text="Github" />
+</p>

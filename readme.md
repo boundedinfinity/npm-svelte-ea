@@ -1,20 +1,15 @@
-# create-svelte
+# Reference
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+- https://medium.com/mkdir-awesome/how-to-use-npm-link-to-create-a-sveltekit-component-library-97e9a66817fc
 
 ## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
-
 ```bash
-# create a new project in the current directory
+mkdir my-app
+cd my-app
 npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
+npx svelte-add@latest tailwindcss
 ```
-
-> Note: the `@next` is temporary
 
 ## Developing
 
