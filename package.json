@@ -1,11 +1,11 @@
 {
   "name": "@boundedinfinity/svelte-ea",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "keywords": [
     "svelte",
     "sveltekit"
   ],
-  "svelte": "index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -14,8 +14,10 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
   },
-  "devDependencies": {
-    "@iconify/svelte": "^2.1.0",
+  "dependencies": {
+    "@iconify/svelte": "^2.1.0"
+  },
+  "devDependencies": {    
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.4.2",
