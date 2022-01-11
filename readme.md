@@ -1,7 +1,7 @@
 # Reference
 
 - https://medium.com/mkdir-awesome/how-to-use-npm-link-to-create-a-sveltekit-component-library-97e9a66817fc
-- 
+- https://kit.svelte.dev/docs#packaging
 
 ## Creating a project
 
