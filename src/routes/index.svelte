@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import "../app.css";
   import Ea from "$lib/ea.svelte";
 </script>
